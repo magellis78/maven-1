@@ -23,7 +23,4 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'build'
-- task: WhiteSource@21
-  inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
+
